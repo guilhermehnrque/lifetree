@@ -1,105 +1,173 @@
 <!DOCTYPE html>
-
-<html lang="pt">
+<html lang="en">
 
 <head>
-    <!-- Meta Tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <title>Life Tree</title>
-    <link rel="shortcut icon" href="/lifetree/src/pic/image/icon.png" width="8">
+    <title>Life tree</title>
 
-    <!-- Conexão CSS -->
-    <link rel="stylesheet" type="text/css" href="/lifetree/src/css/main_style.css">
-    <link rel="stylesheet" type="text/css" href="/lifetree/src/css/main_style2.css">
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="src/css/clean-blog/clean-blog.min.css" rel="stylesheet">
 
     <!-- Manifest -->
     <link rel="manifest" href="/lifetree/manifest.json">
-    <meta name="theme-color" content="#27d2ac">
-
-    <!-- ADD IOS SUPPORT -->
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <!-- [OPCIONAL] Style -->
-    <style type="text/css">
-        .teste-background {
-            background: linear-gradient(87deg, #27d2ac 00%, #345995 110%) !important;
-        }
-    </style>
 </head>
 
 <body>
 
-    <!-- Barra de Navegação -->
-    <nav class="navbar navbar-expand-lg navbar-dark teste-background">
-        <a class="navbar-brand" href="index.html"><img src="src/pics/image/icone.png" width="40" height="40" class="d-inline-block align-top" title="Life Tree" alt="Life Tree"></a>
-        <a class="navbar-brand" href="index.html" class="d-inline-block align-top">Life Tree</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Life tree</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Informações</a>
+                        <div class="dropdown-menu dropdown-menu-right animate slideIn" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="pages/flora.html">Flora</a>
+                            <a class="dropdown-item" href="pages/coleta.html">Reciclagem</a>
+                            <a class="dropdown-item" href="pages/ong.html">Parceiros</a>
+                        </div>
+                    </li>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link text-white" href="index.html">Home<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Informe-se</a>
-                    <div class="dropdown-menu dropdown-menu-right animate slideIn" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="pages/flora.html">Flora</a>
-                        <a class="dropdown-item" href="pages/ong.html">ONG's Parcerias</a>
-                        <a class="dropdown-item" href="pages/coleta.html">Reciclagem</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dicas</a>
-                    <div class="dropdown-menu dropdown-menu-right animate slideIn" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="pages/curiosidades.html">Curiosidades</a>
-                        <a class="dropdown-item" href="pages/dicas.html">Recicle em Casa</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="pages/aboutus.html">Quem Somos</a>
-                </li>
-            </ul>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dicas</a>
+                        <div class="dropdown-menu dropdown-menu-right animate slideIn" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="pages/curiosidades.html">Curiosidades</a>
+                            <a class="dropdown-item" href="pages/dicas.html">Dicas domescticas</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Sobre nós</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
-    <!-- END Barra de Navegação -->
-    <!-- Conteúdo -->
-    <header class="masthead">
-        <div class="container h-100">
-            <div class="row h-100 align-items-center">
-                <div class="col-12 text-center">
-                    <h1 class="font-weight-light title">#LIFETREE</h1>
-                    <h2 class="lead"></h2>
-                    <!-- Texto Opcional -->
+
+    <!-- Page Header -->
+    <header class="masthead" style="background-image: url('src/css/muda.png')">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                    <div class="site-heading">
+                        <h1>#LifeTree</h1>
+                        <span class="subheading">Conecte-se ao verde !</span>
+                    </div>
                 </div>
             </div>
         </div>
     </header>
-    <section class="py-5">
-        <div class="container">
-            <h2 class="font-weight-light">Conecte-se Ao Verde!</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus ab nulla dolorum autem nisi officiis blanditiis voluptatem hic, assumenda aspernatur facere ipsam nemo ratione cumque magnam enim fugiat reprehenderit expedita.</p>
-        </div>
-    </section>
-    <!-- END Conteúdo -->
-    <!-- Rodapé -->
 
-    <footer id="sticky-footer" class="py-4 bg-dark text-white-50 teste-background">
-        <div class="container text-center">
-            <small>Copyright &copy; Life Tree</small>
+    <!-- Main Content -->
+    <div class="container pb-5">
+        <div class="row">
+            <div class="col-lg-10 col-md-12 mx-auto">
+                <div class="post-preview">
+                    <a>
+                        <h6 class="post-title">Título 1</h6>
+                        <p class="post-subtitle">Lorem ipsum fusce diam urna hendrerit nam blandit viverra, condimentum nam mi risus torquent eget aenean consequat augue, faucibus velit suscipit vel fermentum praesent sed. eleifend consectetur curae convallis ad sagittis dapibus, sem interdum sollicitudin eget. sit aptent nullam fusce fames tellus vel elit venenatis enim, aliquam senectus sociosqu donec condimentum nam egestas lorem, eros dictumst fringilla est in augue fames rhoncus. a vivamus nostra libero scelerisque commodo phasellus taciti blandit proin a, taciti non consequat odio vel pretium porttitor volutpat orci, duis etiam ullamcorper condimentum ullamcorper velit lobortis molestie volutpat.
+                        </p>
+                    </a>
+                    <!-- <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on September 24, 2019</p> -->
+                </div>
+                <hr>
+                <div class="post-preview">
+                    <a>
+                        <h6 class="post-title">Título 2</h6>
+                        <p class="post-subtitle">Lorem ipsum fusce diam urna hendrerit nam blandit viverra, condimentum nam mi risus torquent eget aenean consequat augue, faucibus velit suscipit vel fermentum praesent sed. eleifend consectetur curae convallis ad sagittis dapibus, sem interdum sollicitudin eget. sit aptent nullam fusce fames tellus vel elit venenatis enim, aliquam senectus sociosqu donec condimentum nam egestas lorem, eros dictumst fringilla est in augue fames rhoncus. a vivamus nostra libero scelerisque commodo phasellus taciti blandit proin a, taciti non consequat odio vel pretium porttitor volutpat orci, duis etiam ullamcorper condimentum ullamcorper velit lobortis molestie volutpat.
+                        </p>
+                    </a>
+                    <!-- <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on September 24, 2019</p> -->
+                </div>
+
+                <hr>
+
+                <div class="post-preview">
+                    <a>
+                        <h6 class="post-title">Título 1</h6>
+                        <p class="post-subtitle">Lorem ipsum fusce diam urna hendrerit nam blandit viverra, condimentum nam mi risus torquent eget aenean consequat augue, faucibus velit suscipit vel fermentum praesent sed. eleifend consectetur curae convallis ad sagittis dapibus, sem interdum sollicitudin eget. sit aptent nullam fusce fames tellus vel elit venenatis enim, aliquam senectus sociosqu donec condimentum nam egestas lorem, eros dictumst fringilla est in augue fames rhoncus. a vivamus nostra libero scelerisque commodo phasellus taciti blandit proin a, taciti non consequat odio vel pretium porttitor volutpat orci, duis etiam ullamcorper condimentum ullamcorper velit lobortis molestie volutpat.
+                        </p>
+                    </a>
+                    <!-- <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on September 24, 2019</p> -->
+                </div>
+
+                <hr>
+                <!-- Pager -->
+                <!-- <div class="clearfix">
+                    <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <hr class>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-md-12 mx-auto">
+                    <ul class="list-inline text-center">
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                </span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                </span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted">Copyright &copy; Life Tree 2019</p>
+                </div>
+            </div>
         </div>
     </footer>
 
+    <!-- For Service Worker -->
     <script src="/lifetree/src/js/app.js"></script>
-    <script type="text/javascript" src="/lifetree/src/js/main_script.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="/lifetree/vendor/jquery/jquery.min.js"></script>
+    <script src="/lifetree/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="/lifetree/src/js/clean-blog/clean-blog.min.js"></script>
+
 </body>
 
 </html>
