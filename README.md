@@ -6,5 +6,8 @@ dicas para a escolha de certos tipos de plantas e seus locais idéias para reali
 residenciais, locais para coleta e reciclagem de lixo eletrônico e lixo reciclável e uma rede social para divulgação do projeto
 e divulgação pessoal de seus espaços verdes</p>
 
+## Autores
+O projeto é idealizado pelos alunos da Faculdade Fabra, localizado em Barcelona, Serra - ES. Pela turma do 5º período de Sistemas de informação noturno. Com finalizade para ser apresentaço na mostra acadêmica "Fabra no Pátio".
+
 ## License
 <p>Este é um projeto acadêmico, onde não possui <strong>nenhum tipo de coleta de dados pessoais</strong>. </p>
