@@ -85,10 +85,9 @@ h3{
 	font-weight: bold;
 	padding: 120px 0;
 }
-.sessao{
-	height: 300px;
-	position: relative;
-	padding: 50px;
+.sessao{position: relative;}
+.sessao-height{
+	min-height: 250px;
 }
 .sessao-bg{
 	background: #FFF;
