@@ -1,5 +1,5 @@
-const static_cache_name = 'shell-cache-v2.8';
-const dynamic_cache_name = 'dynamic-cache-v1.8';
+const static_cache_name = 'shell-cache-v2.9';
+const dynamic_cache_name = 'dynamic-cache-v1.9';
 
 const assets =[
     '/',
