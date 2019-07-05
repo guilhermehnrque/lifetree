@@ -1,10 +1,15 @@
-const static_cache_name = 'shell-cache-v2.5';
-const dynamic_cache_name = 'dynamic-cache-v1.3';
+const static_cache_name = 'shell-cache-v3.1';
+const dynamic_cache_name = 'dynamic-cache-v2.1';
 
 const assets =[
     '/',
     'index.html',
-    'pages/offline.html',
+    'pages/coleta.html',
+    'pages/curiosidades.html',
+    'pages/dicas.html',
+    'pages/flora.html',
+    'pages/ong.html',
+    'pages/quemsomos.html',
     'src/js/app.js',
     'src/js/main_script.js',
     'src/css/main_style.css',
